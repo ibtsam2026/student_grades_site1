@@ -6,35 +6,41 @@ body {
   text-align: right;
   padding: 20px;
 }
+
 .container {
   max-width: 500px;
   margin: auto;
   background: white;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
 input[type="text"] {
   width: 100%;
   padding: 10px;
-  margin-bottom: 10px;
-  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
+
 button {
-  width: 100%;
-  padding: 10px;
   background-color: #4CAF50;
   color: white;
-  font-size: 16px;
+  padding: 10px 15px;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
+
 button:hover {
   background-color: #45a049;
 }
+
 #result {
   margin-top: 20px;
-  background: #f1f1f1;
+  background-color: #f1f1f1;
   padding: 15px;
   border-radius: 5px;
 }
